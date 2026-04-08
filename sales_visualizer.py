@@ -19,7 +19,9 @@ app.layout = html.Div([
                 'name': 'Sales'
             }],
             'layout': {
-                'title': 'Pink Morsel Sales Over Time'
+                'title': 'Pink Morsel Sales Over Time',
+                'xaxis': {'title': 'Date'},
+                'yaxis': {'title': 'Sales ($)'}
             }
         }
     )
